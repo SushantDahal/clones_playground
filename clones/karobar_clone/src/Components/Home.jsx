@@ -3,6 +3,7 @@ import Google from "../Images/google..webp";
 import Apple from "../Images/apple.png";
 import { AiOutlineGlobal } from "react-icons/ai";
 import { CiPlay1 } from "react-icons/ci";
+import { BsMessenger } from "react-icons/bs";
 const Home = () => {
   return (
     <div className="text-[#333333] max-w-[1280px] mx-auto md:mt-10 mt-8 h-full ">
@@ -31,6 +32,12 @@ const Home = () => {
         <div className=" mx-auto mt-5">
           <img src={Banner} alt="/" className="max-h-[400px]" />
         </div>
+      </div>
+      <div className="">
+        <BsMessenger
+          className="fixed right-4 bg-[#00b98d]  bottom-6 p-3 rounded-full text-slate-50"
+          size={60}
+        />
       </div>
     </div>
   );

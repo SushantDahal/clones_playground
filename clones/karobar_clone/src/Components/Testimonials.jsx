@@ -8,8 +8,8 @@ const Testimonials = () => {
       <h1 className="text-center text-3xl text-[#333333] -tracking-tighter py-10">
         How Karobar app is <span>helping users</span>
       </h1>
-      <div className="grid md:grid-cols-2 gap-4">
-        <div className="flex flex-col bg-red-200 rounded-md p-2 px-4">
+      <div className="grid md:grid-cols-2 gap-4 test">
+        <div className="flex flex-col bg-[#fff] rounded-md p-2 px-4 shadow-lg">
           <FaQuoteLeft size={35} className="my-4 text-[#00b98d] " />
           <p className="text-[18px]">
             Karobar mobile app really makes managing parties and their
@@ -30,7 +30,7 @@ const Testimonials = () => {
         </div>
 
         {/* Profile 2 */}
-        <div className="flex flex-col bg-red-200 rounded-md p-2 px-4">
+        <div className="flex flex-col rounded-md p-2 px-4 bg-[#fff] shadow-lg">
           <FaQuoteLeft size={35} className="my-4 text-[#00b98d] " />
           <p className="text-[18px]">
             Karobar mobile app really makes managing parties and their

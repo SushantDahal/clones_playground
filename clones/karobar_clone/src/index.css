@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+}
+ul {
+  font-family: "Ropa Sans", sans-serif;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+span {
+  color: #00b98d;
+}
+p {
+  color: #2a2a2a;
+  font-family: "Poppins", sans-serif;
+}
+@media screen and (min-width: 600px) {
+  .start {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 700px) {
+  .lisst li {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  p {
+    font-size: 12px;
+  }
+}
